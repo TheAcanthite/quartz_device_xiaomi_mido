@@ -80,6 +80,7 @@ persist.demo.hdmirotationlock=false \
 persist.hwc.enable_vds=1 \
 persist.hwc.mdpcomp.enable=true \
 ro.opengles.version=196610 \
+debug.sdm.support_writeback=0 \
 ro.qualcomm.cabl=0 \
 ro.vendor.display.cabl=2 \
 sdm.debug.disable_skip_validate=1 \
