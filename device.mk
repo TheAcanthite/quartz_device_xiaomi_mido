@@ -193,6 +193,12 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/gps/sap.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sap.conf \
     $(LOCAL_PATH)/configs/gps/xtwifi.conf:$(TARGET_COPY_OUT_VENDOR)/etc/xtwifi.conf
 
+# HALs
+PRODUCT_SOONG_NAMESPACES += \
+hardware/qcom-caf/msm8996/audio \
+hardware/qcom-caf/msm8996/display \
+hardware/qcom-caf/msm8996/media
+
 # Healthd
 PRODUCT_PACKAGES += \
     android.hardware.health@2.0-impl \
