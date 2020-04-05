@@ -34,5 +34,11 @@
     "repository": "DoubleAtoString/hardware_qcom-caf_msm8996_media",
     "target_path": "hardware/qcom-caf/msm8996/media",
     "revision": "quartz"
+  },
+  {
+    "remote": "aospa",
+    "repository": "android_device_qcom_common",
+    "target_path": "device/qcom/common",
+    "revision": "quartz"
   }
 ]
