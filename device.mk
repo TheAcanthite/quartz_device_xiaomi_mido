@@ -392,7 +392,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     dhcpcd.conf \
     hostapd \
-    hostapd_cli \
     libcld80211 \
     libqsap_sdk \
     libQWiFiSoftApCfg \
@@ -400,7 +399,6 @@ PRODUCT_PACKAGES += \
     libwpa_client \
     wificond \
     wifilogd \
-    wpa_cli \
     wpa_supplicant \
     wpa_supplicant.conf
 
